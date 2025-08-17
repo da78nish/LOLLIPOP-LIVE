@@ -290,6 +290,75 @@
   </script>
 </body>
 </html>
+licy-img">
+      <img src="https://i.postimg.cc/Rh9jf25S/Agency-Rank.png" alt="Policy 2" class="policy-img">
+      <img src="https://i.postimg.cc/v8tRM8fc/Agency-Bonus.png" alt="Policy 3" class="policy-img">
+      <img src="https://i.postimg.cc/fLWc9vq4/Invite-reward.png" alt="Policy 4" class="policy-img">
+      <img src="https://i.postimg.cc/Y9yWmBmg/invite.png" alt="Policy 5" class="policy-img">
+    </div>
+    <div class="logo-images">
+      <img src="https://i.postimg.cc/yxP2TnsF/Logo-ADM.jpg" alt="Logo 1" class="policy-img">
+      <img src="https://i.postimg.cc/7YHFLvnX/Pakistan-Official.png" alt="Logo 2" class="policy-img">
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>If You Have Questions? Reach out to us anytime via WhatsApp or email.</p>
+
+    <a class="btn btn-whatsapp" href="https://chat.whatsapp.com/GccW78FPvfV4EAHpZNRIlc?mode=ac_t" target="_blank" rel="noopener">OFFICIAL WHATSAPP GROUP</a>
+    <br>
+    <a class="btn btn-whatsapp" href="https://wa.me/923400278535?text=Hi%20…%20ADMIN%20DANISH%20…I%20Need%20Your%20Help%20" target="_blank" rel="noopener">CHAT ON WHATSAPP</a>
+    <br>
+    <a class="btn btn-primary" href="mailto:Danishasifjaved@gmail.com">SEND EMAIL</a>
+
+    <!-- Social icons -->
+    <div class="social" aria-label="Social media links">
+      <a href="https://facebook.com/janigno1" target="_blank" rel="noopener" aria-label="Facebook">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" />
+      </a>
+      <a href="https://x.com/janigno1" target="_blank" rel="noopener" aria-label="Twitter/X">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter/X" />
+      </a>
+      <a href="https://www.tiktok.com/janigno1" target="_blank" rel="noopener" aria-label="TikTok">
+        <img src="https://cdn-icons-png.flaticon.com/512/3046/3046125.png" alt="TikTok" />
+      </a>
+      <a href="https://wa.me/923400278535" target="_blank" rel="noopener" aria-label="WhatsApp">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp" />
+      </a>
+      <a href="https://t.me/janigno1" target="_blank" rel="noopener" aria-label="Telegram">
+        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="Telegram" />
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Lollipop Live — All rights reserved.
+  </footer>
+
+  <script>
+    const sections = document.querySelectorAll("section");
+    function revealOnScroll(){
+      sections.forEach(sec=>{
+        const rect = sec.getBoundingClientRect();
+        if(rect.top < window.innerHeight - 100) sec.classList.add("show");
+      });
+    }
+    window.addEventListener("scroll", revealOnScroll, {passive:true});
+    window.addEventListener("load", revealOnScroll);
+
+    let lastY = 0;
+    const nav = document.getElementById("navbar");
+    window.addEventListener("scroll", ()=>{
+      const y = window.scrollY || document.documentElement.scrollTop;
+      if(y > lastY){ nav.style.top = "-80px"; }
+      else { nav.style.top = "0"; }
+      lastY = y <= 0 ? 0 : y;
+    }, {passive:true});
+  </script>
+</body>
+</html>
  alt="Policy 5" class="policy-img">
     </div>
     <div class="logo-images">
