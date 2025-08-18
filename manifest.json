@@ -1,6 +1,53 @@
 {
   "name": "Lollipop Live",
   "short_name": "Lollipop",
+  "description": "Lollipop Live - Best live streaming app for rewards, 1v1 calls, and global fun.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#8338ec",
+  "theme_color": "#ff9ff3",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "https://lollipoplive.netlify.app/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://lollipoplive.netlify.app/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
+
+{
+  "name": "Lollipop Live",
+  "short_name": "Lollipop",
+  "description": "Lollipop Live - Best live streaming app for rewards, 1v1 calls, and global fun.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#8338ec",
+  "theme_color": "#ff9ff3",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/logo192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/logo512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
+{
+  "name": "Lollipop Live",
+  "short_name": "Lollipop",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#822EFF",

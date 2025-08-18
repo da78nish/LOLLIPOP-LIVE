@@ -1,1 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>LOLLIPOP LIVE Updates</title>
+    <link>https://lollipoplive.netlify.app/</link>
+    <description>Latest updates from LOLLIPOP LIVE</description>
 
+    <item>
+      <title>Welcome to LOLLIPOP LIVE</title>
+      <link>https://lollipoplive.netlify.app/</link>
+      <description>Join LOLLIPOP LIVE and get up to $60 joining reward!</description>
+      <pubDate>Mon, 18 Aug 2025 09:00:00 +0000</pubDate>
+      <guid>https://lollipoplive.netlify.app/</guid>
+    </item>
+
+    <item>
+      <title>LOLLIPOP LIVE Rewards</title>
+      <link>https://lollipoplive.netlify.app/rewards/</link>
+      <description>Check out all the exciting rewards you can earn by joining our team!</description>
+      <pubDate>Mon, 18 Aug 2025 09:30:00 +0000</pubDate>
+      <guid>https://lollipoplive.netlify.app/rewards/</guid>
+    </item>
+
+  </channel>
+</rss>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>LOLLIPOP LIVE - Updates</title>
+    <link>https://lollipoplive.netlify.app/</link>
+    <description>Official updates for Lollipop Live</description>
+    <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
+  </channel>
+</rss>
