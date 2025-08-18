@@ -3,61 +3,79 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="keywords" content="LOLLIPOP LIVE agency, LOLLIPOP LIVE agency Registration, LOLLIPOP LIVE app agency, Joyo app agency, Joyo app agency Registration, LOLLIPOP LIVE agent, How to become Joyo app agent, Poppo live agency, Chamet app agency, Bigo live agency, TikTok agency, Soya Live Agency, Olamate Agency, Buzzcast Agency">
-  <meta name="description" content="Join LOLLIPOP LIVE and get up to $60 joining reward and more income opportunities. Connect with talented individuals and create engaging content.">
-
   <title>LOLLIPOP LIVE - Get Up to $60 Joining Reward</title>
 
-  <!-- Favicon / Touch icons (added) -->
+<link rel="sitemap" type="application/xml" title="Sitemap" href="https://lollipoplive.netlify.app/sitemap.xml" />
+<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://lollipoplive.netlify.app/rss.xml" />
+
+<script>
+  if ("serviceWorker" in navigator) {
+    window.addEventListener("load", () => {
+      navigator.serviceWorker
+        .register("/service-worker.js")
+        .then(reg => console.log("✅ Service Worker registered:", reg.scope))
+        .catch(err => console.log("❌ Service Worker failed:", err));
+    });
+  }
+  
+</script><link rel="manifest" href="/manifest.json">
+
+
+  <!-- Basic / SEO -->
+  <meta name="keywords" content="LOLLIPOP LIVE agency, LOLLIPOP LIVE agency Registration, LOLLIPOP LIVE app agency, Joyo app agency, Joyo app agency Registration, LOLLIPOP LIVE agent, How to become Joyo app agent, Poppo live agency, Chamet app agency, Bigo live agency, TikTok agency, Soya Live Agency, Olamate Agency, Buzzcast Agency">
+  <meta name="description" content="Join LOLLIPOP LIVE and get up to $60 joining reward and more income opportunities. Connect with talented individuals and create engaging content.">
+  <link rel="canonical" href="https://lollipoplive.netlify.app/">
+
+  <!-- Open Graph & Twitter (helps link preview show image/logo) -->
+  <meta property="og:title" content="LOLLIPOP LIVE - Get Up to $60 Joining Reward">
+  <meta property="og:description" content="Join LOLLIPOP LIVE and get up to $60 joining reward and more income opportunities.">
+  <meta property="og:image" content="https://i.postimg.cc/0QkZp0xm/banner-600x300.png">
+  <meta property="og:image:secure_url" content="https://i.postimg.cc/0QkZp0xm/banner-600x300.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:url" content="https://lollipoplive.netlify.app/">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://i.postimg.cc/zXFCD6Gz/LOLLIPOP-Icon.webp">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="LOLLIPOP LIVE - Get Up to $60 Joining Reward">
+  <meta name="twitter:description" content="Join LOLLIPOP LIVE and get up to $60 joining reward and more income opportunities.">
+  <meta name="twitter:image" content="https://i.postimg.cc/0QkZp0xm/banner-600x300.png">
+
+  <!-- Favicon / Touch icons -->
   <link rel="icon" href="https://i.postimg.cc/zXFCD6Gz/LOLLIPOP-Icon.webp" type="image/webp" />
   <link rel="shortcut icon" href="https://i.postimg.cc/zXFCD6Gz/LOLLIPOP-Icon.webp" />
   <link rel="apple-touch-icon" href="https://i.postimg.cc/zXFCD6Gz/LOLLIPOP-Icon.webp" />
   <meta name="theme-color" content="#822EFF" />
 
-  <!-- Open Graph (improved for link preview) -->
-  <!-- Primary og:image: a larger banner so previews are more reliable -->
-  <meta property="og:title" content="LOLLIPOP LIVE - Get Up to $60 Joining Reward">
-  <meta property="og:description" content="Join LOLLIPOP LIVE and get up to $60 joining reward and more income opportunities.">
-  <meta property="og:url" content="https://lollipoplive.netlify.app/">
-  <meta property="og:type" content="website">
-  <meta property="og:site_name" content="Lollipop Live" />
-
-  <!-- larger banner first (helps messengers pick a big preview) -->
-  <meta property="og:image" content="https://i.postimg.cc/0QkZp0xm/banner-600x300.png" />
-  <meta property="og:image:secure_url" content="https://i.postimg.cc/0QkZp0xm/banner-600x300.png" />
-  <meta property="og:image:type" content="image/png" />
-  <meta property="og:image:width" content="600" />
-  <meta property="og:image:height" content="300" />
-
-  <!-- secondary: the logo (keeps your brand visible) -->
-  <meta property="og:image" content="https://i.postimg.cc/zXFCD6Gz/LOLLIPOP-Icon.webp" />
-  <meta property="og:image:secure_url" content="https://i.postimg.cc/zXFCD6Gz/LOLLIPOP-Icon.webp" />
-  <meta property="og:image:type" content="image/webp" />
-
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="LOLLIPOP LIVE - Get Up to $60 Joining Reward" />
-  <meta name="twitter:description" content="Join LOLLIPOP LIVE and get up to $60 joining reward and more income opportunities." />
-  <meta name="twitter:image" content="https://i.postimg.cc/0QkZp0xm/banner-600x300.png" />
-
-  <!-- JSON-LD Organization (unchanged content) -->
+  <!-- JSON-LD (Organization + App) -->
   <script type="application/ld+json">
   {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "LOLLIPOP LIVE",
-    "url": "https://lollipoplive.netlify.app/",
-    "logo": "https://i.postimg.cc/zXFCD6Gz/LOLLIPOP-Icon.webp",
-    "sameAs": [
-      "https://www.facebook.com/janigno1",
-      "https://x.com/janigno1",
-      "https://www.tiktok.com/janigno1"
+    "@context":"https://schema.org",
+    "@graph":[
+      {
+        "@type":"Organization",
+        "name":"LOLLIPOP LIVE",
+        "url":"https://lollipoplive.netlify.app/",
+        "logo":"https://i.postimg.cc/zXFCD6Gz/LOLLIPOP-Icon.webp",
+        "sameAs":["https://www.facebook.com/janigno1","https://x.com/janigno1","https://www.tiktok.com/janigno1"]
+      },
+      {
+        "@type":"MobileApplication",
+        "name":"Lollipop Live",
+        "operatingSystem":"Android, iOS",
+        "applicationCategory":"SocialNetworkingApplication",
+        "url":"https://lollipoplive.netlify.app/",
+        "logo":"https://i.postimg.cc/zXFCD6Gz/LOLLIPOP-Icon.webp",
+        "author":{"@type":"Organization","name":"DJ OFFICIAL PAKISTAN"}
+      }
     ]
   }
   </script>
 
+  <!-- Font -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 
+  <!-- Inline CSS -->
   <style>
     :root{
       --brandA:#FF32FF;
@@ -86,14 +104,14 @@
     }
     nav .brand{
       display:flex; align-items:center; gap:10px;
-      font-weight:700; font-size:.9rem; letter-spacing:.2px; /* smaller nav text */
+      font-weight:700; font-size:.9rem; letter-spacing:.2px;
     }
     nav .brand img{width:26px;height:26px;border-radius:50%}
     nav ul{display:flex; gap:16px; list-style:none; margin:0; padding:0}
-    nav a{color:#fff; text-decoration:none; font-weight:500; font-size:.85rem} /* smaller nav text */
+    nav a{color:#fff; text-decoration:none; font-weight:500; font-size:.85rem}
     nav a:hover{color:var(--brandA)}
     .nav-btn{
-      padding:6px 14px; border-radius:6px; font-size:.8rem; /* smaller nav button text */
+      padding:6px 14px; border-radius:6px; font-size:.8rem;
       background:linear-gradient(45deg, var(--brandA), var(--brandB));
       color:#fff; box-shadow:0 4px 10px rgba(0,0,0,.15);
       transition:transform .2s ease;
@@ -136,20 +154,15 @@
     h2{color:var(--brandB); margin:0 0 16px; font-size:1.8rem}
 
     .policy-img, .reward-image, .platform-image{
-      max-width:100%; border-radius:12px; box-shadow:0 6px 18px rgba(0,0,0,.15); margin:10px 0;
+      display:block; width:100%; max-width:1000px;
+      margin:12px auto; border-radius:12px; box-shadow:0 6px 18px rgba(0,0,0,.15);
     }
 
-    .social{
-      margin-top:22px; display:flex; justify-content:center; gap:14px; flex-wrap:wrap;
-    }
-    .social a img{width:32px;height:32px;transition:transform .2s ease}
+    .social{margin-top:22px; display:flex; justify-content:center; gap:14px; flex-wrap:wrap}
+    .social a img{width:32px; height:32px; display:block; transition:transform .2s ease}
     .social a img:hover{transform:scale(1.15)}
 
-    footer{
-      text-align:center; color:#fff; padding:20px;
-      background:linear-gradient(90deg, var(--brandB), var(--brandA));
-      font-size:.95rem
-    }
+    footer{text-align:center; color:#fff; padding:20px; background:linear-gradient(90deg, var(--brandB), var(--brandA)); font-size:.95rem}
 
     @keyframes fadeInUp{from{opacity:0;transform:translateY(40px)}to{opacity:1;transform:translateY(0)}}
 
@@ -162,7 +175,6 @@
 </head>
 <body>
 
-  <!-- NAV -->
   <nav id="navbar">
     <div class="brand">
       <img src="https://i.postimg.cc/zXFCD6Gz/LOLLIPOP-Icon.webp" alt="Lollipop Live Logo" />
@@ -177,7 +189,6 @@
     <a class="nav-btn" href="#download">Download</a>
   </nav>
 
-  <!-- HERO -->
   <section class="hero" id="hero">
     <img class="hero-logo" src="https://i.postimg.cc/zXFCD6Gz/LOLLIPOP-Icon.webp" alt="Lollipop Live" />
     <p class="welcome"><strong>WELCOME TO</strong></p>
@@ -187,7 +198,6 @@
     <a href="#download" class="btn btn-primary" aria-label="Download Lollipop Live">Download Now</a>
   </section>
 
-  <!-- DOWNLOAD -->
   <section id="download">
     <h2>Download Our App</h2>
     <p>Get the latest version of our app and start your journey today.</p>
@@ -195,14 +205,12 @@
     <a href="https://app.adjust.com/1kkuyeam?label=%7B%22uid%22%3A562927491%7D" class="btn btn-primary">Download for iOS</a>
   </section>
 
-  <!-- ABOUT -->
   <section id="about">
     <h2>About Me</h2>
     <p>MySelf DANISH JANI DJ OFFICIAL PAKISTAN. We Are Hiring Experienced ADMIN & BD & AGENCY OWNERS. If Anyone Is Interested, Contact Us For More Details. My Goal Is To Connect With Talented Individuals And Create Engaging Content.</p>
     <img src="https://i.postimg.cc/0QkZp0xm/banner-600x300.png" alt="About Me" class="platform-image">
   </section>
 
-  <!-- REWARDS -->
   <section id="rewards">
     <h2>LOLLIPOP LIVE Rewards</h2>
     <p>Check Out The Exciting Rewards You Can Earn By Joining My Team!</p>
@@ -216,12 +224,68 @@
     </div>
   </section>
 
-  <!-- POLICY -->
   <section id="policy">
     <h2>POLICY</h2>
     <p>As An Agent, You Can Earn The Following Rewards Waiting For You:</p>
     <div class="policy-images">
       <img src="https://i.postimg.cc/4dpDYs02/Agency-Commission.png" alt="Policy 1" class="policy-img">
+      <img src="https://i.postimg.cc/Rh9jf25S/Agency-Rank.png" alt="Policy 2" class="policy-img">
+      <img src="https://i.postimg.cc/v8tRM8fc/Agency-Bonus.png" alt="Policy 3" class="policy-img">
+      <img src="https://i.postimg.cc/fLWc9vq4/Invite-reward.png" alt="Policy 4" class="policy-img">
+      <img src="https://i.postimg.cc/Y9yWmBmg/invite.png" alt="Policy 5" class="policy-img">
+    </div>
+    <div class="logo-images">
+      <img src="https://i.postimg.cc/yxP2TnsF/Logo-ADM.jpg" alt="Logo 1" class="policy-img">
+      <img src="https://i.postimg.cc/7YHFLvnX/Pakistan-Official.png" alt="Logo 2" class="policy-img">
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>If You Have Questions? Reach out to us anytime via WhatsApp or email.</p>
+    <a class="btn btn-whatsapp" href="https://chat.whatsapp.com/GccW78FPvfV4EAHpZNRIlc?mode=ac_t" target="_blank" rel="noopener">OFFICIAL WHATSAPP GROUP</a>
+    <br>
+    <a class="btn btn-whatsapp" href="https://wa.me/923400278535?text=Hi%20…%20ADMIN%20DANISH%20…I%20Need%20Your%20Help%20" target="_blank" rel="noopener">CHAT ON WHATSAPP</a>
+    <br>
+    <a class="btn btn-primary" href="mailto:Danishasifjaved@gmail.com">SEND EMAIL</a>
+
+    <div class="social" aria-label="Social media links">
+      <a href="https://facebook.com/janigno1" target="_blank" rel="noopener" aria-label="Facebook"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" /></a>
+      <a href="https://x.com/janigno1" target="_blank" rel="noopener" aria-label="Twitter/X"><img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter/X" /></a>
+      <a href="https://www.tiktok.com/@janigno1" target="_blank" rel="noopener" aria-label="TikTok"><img src="https://cdn-icons-png.flaticon.com/512/3046/3046125.png" alt="TikTok" /></a>
+      <a href="https://wa.me/923400278535" target="_blank" rel="noopener" aria-label="WhatsApp"><img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp" /></a>
+      <a href="https://t.me/janigno1" target="_blank" rel="noopener" aria-label="Telegram"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="Telegram" /></a>
+    </div>
+  </section>
+
+  <footer>© 2025 Lollipop Live — All rights reserved.</footer>
+
+  <script>
+    (function(){
+      const sections=document.querySelectorAll("section");
+      if('IntersectionObserver' in window){
+        const io=new IntersectionObserver((entries, obs)=>{
+          entries.forEach(en=>{
+            if(en.isIntersecting){en.target.classList.add('show'); obs.unobserve(en.target);}
+          });
+        },{threshold:0.18});
+        sections.forEach(s=>io.observe(s));
+      } else {sections.forEach(s=>s.classList.add('show'));}
+    })();
+
+    (function(){
+      let lastY=0; const nav=document.getElementById('navbar'); let ticking=false;
+      window.addEventListener('scroll',function(){
+        const y=window.scrollY||document.documentElement.scrollTop;
+        if(!ticking){window.requestAnimationFrame(function(){
+          if(y>lastY){nav.style.top='-80px';} else {nav.style.top='0';}
+          lastY=Math.max(y,0); ticking=false;
+        }); ticking=true;}
+      },{passive:true});
+    })();
+  </script>
+</body>
+           </html>licy-img">
       <img src="https://i.postimg.cc/Rh9jf25S/Agency-Rank.png" alt="Policy 2" class="policy-img">
       <img src="https://i.postimg.cc/v8tRM8fc/Agency-Bonus.png" alt="Policy 3" class="policy-img">
       <img src="https://i.postimg.cc/fLWc9vq4/Invite-reward.png" alt="Policy 4" class="policy-img">
