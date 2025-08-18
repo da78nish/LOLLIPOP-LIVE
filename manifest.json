@@ -1,1 +1,12 @@
-
+{
+  "name": "Lollipop Live",
+  "short_name": "Lollipop",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#822EFF",
+  "theme_color": "#822EFF",
+  "icons": [
+    { "src": "https://i.postimg.cc/zXFCD6Gz/LOLLIPOP-Icon.webp", "sizes": "192x192", "type": "image/webp" },
+    { "src": "https://i.postimg.cc/zXFCD6Gz/LOLLIPOP-Icon.webp", "sizes": "512x512", "type": "image/webp" }
+  ]
+}
